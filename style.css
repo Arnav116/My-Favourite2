@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+}
+
+#welcome {
+    background: linear-gradient(#b099c9 0%, #7800fa 100%);
+    height: 800px;
+    padding-top: 100px;
+    z-index: 10;
+}
+
+.ProfilePicture {
+    border-radius: 60%;
+    width: 250px;
+    height: 280px;
+}
+
+.line {
+    height: 5px;
+    width: 80px;
+    background-color: black;
+    margin: auto;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: serif;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    right: 10px;
+    z-index: 12;
+    cursor: pointer;
+    color: blue;
+}
+
+.items {
+    float: left;
+    padding-left: 10px;
+    font-family: serif;
+    font-size: 27px;
+    color:forestgreen;
+}
+
+.items:hover {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color:crimson;
+    text-shadow: 2px 2px darkgray;
+}
+#contact_1{
+    background-color:cyan;
+}
+.menu a{
+    color:black !important;
+}
